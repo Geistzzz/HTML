@@ -15,5 +15,10 @@ def get_news():
     return render_template("news.html")
 
 
+@app.route("/goods/list")
+def get_news():
+    return render_template("get_news.html")
+
+
 if __name__ == "__main__":
     app.run()
